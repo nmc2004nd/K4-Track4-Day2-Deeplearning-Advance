@@ -1,0 +1,13 @@
+{
+  "final_exp_id": "F01",
+  "training_exp": "T00",
+  "inference_exp": "I04",
+  "method": "single-view resolution 256",
+  "baseline": "T00 + I00",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "save_test_predictions": true
+}

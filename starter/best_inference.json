@@ -1,0 +1,10 @@
+{
+  "training_exp": "T00",
+  "inference_exp": "I04",
+  "method": "single-view resolution 256",
+  "macro_f1_val": 0.9712846755225439,
+  "top1_val": 0.9785775492716366,
+  "ece_val": 0.013865003234078176,
+  "p95_ms": 3.770240012090653,
+  "temperature": 1.6392949155352423
+}

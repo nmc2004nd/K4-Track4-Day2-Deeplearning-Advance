@@ -1,0 +1,21 @@
+{
+  "backbone": "convnext_tiny",
+  "factors": [
+    "T04",
+    "T03",
+    "T02",
+    "T01",
+    "T05"
+  ],
+  "changes": {
+    "aug": "color",
+    "loss": "ls",
+    "label_smoothing": 0.1,
+    "sampler": "balanced",
+    "lr_head": 0.0001,
+    "ema_decay": 0.999
+  },
+  "delta_macro_f1_mean": -0.0018200274851444265,
+  "noise_max_std": 0.0017422579775907964,
+  "conclusion": "Mức giảm lớn hơn std; cấu hình kết hợp có tín hiệu kém hơn T00."
+}
